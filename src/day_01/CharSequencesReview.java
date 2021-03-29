@@ -35,6 +35,8 @@ public class CharSequencesReview {
         System.out.println("stringBuffer = " + stringBuffer);
 
         //StringBuffer is created for synchronized thread-safe ==>> one thread at a time
-        //thread:
+        //thread: sub sequence of a process
+        //multi-thread: multiple threads are being executed
+
     }
 }

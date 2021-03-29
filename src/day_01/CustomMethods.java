@@ -20,6 +20,10 @@ public class CustomMethods {
 
         System.out.println(reverseOfWord(str3));
 
+        String str4 = "anna";
+
+        System.out.println(isPalindrome(str4));
+
     }
 
     public static String reverseOfWord(String word){
@@ -28,5 +32,11 @@ public class CustomMethods {
             reversed += word.charAt(i);
         }
         return reversed;
+    }
+
+    public static boolean isPalindrome(String word){
+        String reverse = reverseOfWord(word);
+
+        return word.equals(reverse);
     }
 }

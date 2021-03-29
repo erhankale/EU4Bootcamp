@@ -1,5 +1,7 @@
 package day_01;
 
+import java.util.Arrays;
+
 public class CustomMethods {
 
     public static void main(String[] args) {
@@ -39,4 +41,32 @@ public class CustomMethods {
 
         return word.equals(reverse);
     }
+
+    public static int min(int[] arr){
+        Arrays.sort(arr);
+        return arr[0];
+    }
+
+    public static double min(double[] arr){
+        Arrays.sort(arr);
+        return arr[0];
+    }
+}
+
+class A{
+
+    public static void main(String[] args) {
+        System.out.println("Write Array");
+    }
+
+    private static void main(Integer[] args) {
+        System.out.println();
+    }
+
+
+
+
+
+
+
 }

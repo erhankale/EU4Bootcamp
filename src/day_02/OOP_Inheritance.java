@@ -1,4 +1,4 @@
-package day_01;
+package day_02;
 
 class Car{
     public String brand, model, color;
